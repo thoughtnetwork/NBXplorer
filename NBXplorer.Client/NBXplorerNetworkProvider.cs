@@ -27,6 +27,7 @@ namespace NBXplorer
 			InitColossus(networkType);
 			InitChaincoin(networkType);
 			InitLiquid(networkType);
+      InitThought(networkType);
 			foreach (var chain in _Networks.Values)
 			{
 				chain.DerivationStrategyFactory ??= chain.CreateStrategyFactory();
