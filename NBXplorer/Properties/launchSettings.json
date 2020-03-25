@@ -52,6 +52,26 @@
       },
       "applicationUrl": "http://localhost:4774",
       "launchUrl": "v1/cryptos/dash/status"
+    },
+    "NBXplorer - THT on Mainnet": {
+      "commandName": "Project",
+      "commandLineArgs": "--chains=tht --network=mainnet",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:4774",
+      "launchUrl": "v1/cryptos/tht/status"
+    },
+    "NBXplorer - THT on Mainnet": {
+      "commandName": "Project",
+      "commandLineArgs": "--chains=tht --network=testnet",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:4774",
+      "launchUrl": "v1/cryptos/tht/status"
     }
   }
 }
