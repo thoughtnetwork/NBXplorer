@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>netstandard2.1</TargetFramework>
 		<Company>Digital Garage</Company>
 		<Version>3.0.5</Version>
 		<Copyright>Copyright © Digital Garage 2017</Copyright>
