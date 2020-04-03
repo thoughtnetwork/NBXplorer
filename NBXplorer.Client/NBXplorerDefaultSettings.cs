@@ -18,7 +18,7 @@ namespace NBXplorer
 				settings.DefaultDataDirectory = StandardConfiguration.DefaultDataDirectory.GetDirectory("NBXplorer", GetFolderName(networkType), false);
 				settings.DefaultConfigurationFile = Path.Combine(settings.DefaultDataDirectory, "settings.config");
 				settings.DefaultCookieFile = Path.Combine(settings.DefaultDataDirectory, ".cookie");
-				settings.DefaultPort = (networkType == NetworkType.Mainnet ? 24444 :
+				settings.DefaultPort = (networkType == NetworkType.Mainnet ? 32838 :
 													  networkType == NetworkType.Regtest ? 24446 :
 													  networkType == NetworkType.Testnet ? 24445 : throw new NotSupportedException(networkType.ToString()));
 				settings.DefaultUrl = new Uri($"http://127.0.0.1:{settings.DefaultPort}/", UriKind.Absolute);
